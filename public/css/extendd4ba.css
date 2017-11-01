@@ -1,0 +1,208 @@
+.banner .user-drop > a span.label {
+  border: 1px solid #254064;
+  background-color: #fff;
+  color: #d9534f;
+}
+section.red.change-color {
+background: #f4f8f9;
+color: #333;
+}
+.tab-bg {
+background: #f4f8f9;
+}
+.main-tabs .nav-tabs a {
+color: #FD3C53;
+}
+.main-tabs .nav-tabs > .active > a, .main-tabs .nav-tabs > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+color: #333;
+}
+
+/*styles added by prasad,nilay start here*/
+a.img-uploader span {
+  position: absolute;
+  margin: 0px 30%;
+  -ms-filter: 'alpha(opacity=0)';
+  cursor: pointer;
+  left: 0px;
+  width: 40%;
+}
+a.img-uploader span.cs-profiile-pic {
+  top: 128px;
+}
+a.img-uploader span.cs-car-pic {
+  top: 143px;
+}
+a.img-uploader span input[type=file] {
+  width: 100%;
+  opacity: 0;
+}
+.cs-car-info .form-group .alert {
+  padding: 5px 10px;
+  border-radius: 0 0px 5px 5px;
+  margin-top: -1px;
+}
+.form-group.cs-errinfo .alert {
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+.cs-rd-car {
+  width: 157px;
+}
+a.cs-question.cs-flagged {
+  margin-left: 5px;
+}
+.cs-flagged {
+    text-decoration: line-through;
+}
+label.cs-ride-conf {
+  padding-left: 0px;
+}
+.cs-reply-cancel {
+  margin-left: 5px;
+}
+.cs-pager-2 {
+}
+.cs-pager-2 .pagination-wrap h3 {
+    font-size: 18px;
+}
+.cs-pager-2 .pagination-lg > li > a, .cs-pager-2 .pagination-lg > li > span {
+    padding: 5px 12px;
+}
+.profile.listing ul.dv-list li {
+    margin-bottom: 10px;
+}
+.cs-pager-admin {
+}
+.cs-pager-admin .pagination {
+    margin: 10px 0;
+}
+.cs-pager-admin .pagination-wrap h3 {
+    font-size: 18px;
+    line-height: normal;
+}
+.cs-pager-admin .pagination-lg > li > a, .cs-pager-2 .pagination-lg > li > span {
+    padding: 5px 12px;
+}
+.cs-paddnone {
+    padding: 0px !important;
+}
+.listing.cs-pager-admin .panel {
+    background-color: #fff;
+}
+.cs-pager-admin .cs-checkbox {
+    width: 16px;
+    height: 16px;
+    margin: 4px 0 0 0;
+}
+.cs-pager-admin .cs-sort-field {
+    /*color: #7070FC;*/
+    color: #FFECEC;
+}
+.cs-pager-admin table.table th {
+    background-color: #646264;
+}
+.cs-pager-admin .cs-sort-field span {
+    margin-left: 5px;
+}
+.cs-pager-admin .cs-l-reply {
+    float: right;
+    font-size: 12px;
+    background-color: #A9BEFF;
+    color: #000000;
+    padding: 4px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.cs-flottip-class {
+    position: absolute; font-size: 12px; background: #000; color: #fff; border: 1px solid black;
+    padding: 4px;
+}
+.cs-btn-icon {
+    margin:6px 0;
+    float: left;
+}
+.cs-input-price {
+    font-size: 24px;
+    color: #E4434C;
+}
+.multiselect.btn {
+  color: #333333;
+  border-color: #333333;
+}
+.multiselect-item.filter .btn {
+  color: #555;
+  border-color: #ccc;
+}
+.multiselect-item.filter .btn:hover {
+  color: #F37A7A;
+  border-color: #F37A7A;
+}
+.multiselect-container.dropdown-menu>.active>a, .multiselect-container.dropdown-menu>.active>a:focus, .multiselect-container.dropdown-menu>.active>a:hover {
+  color: #333;
+  background-color: #ffecec;
+}
+.multiselect-item .multiselect-all label {
+  padding-left: 30px;
+}
+.cs-inline-alert {
+  padding: 6px;
+}
+.cs-inline-success {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #B4FCB8;
+  border-radius: 10px;
+}
+.admin-cc-drop ul.dropdown-menu li { clear: both;padding: 0px 7px 5px;line-height: 30px; }
+.admin-cc-drop ul.dropdown-menu li:hover { background-color: #F3F3F3;cursor: pointer; }
+
+.btn-group>.btn {
+  font-size: 11px;
+  min-width: 32px;
+  /*max-width: 33px;*/
+  padding: 4px 6px;
+}
+.greenlabel {
+    font-size: 13px;
+}
+.btn-group {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.btn_inbound_days,
+.btn_trip_days,
+.btn_outbound_days {
+    background-color:#ddd;
+    border: 1px solid #ccc
+}
+.btn-inout-active {
+    border: 1px solid #3d77af;
+    background-color: #3d77af;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125) !important;
+}
+.btn_outbound_days.active,
+.btn_inbound_days.active,
+.btn_trip_days.active
+{
+    -webkit-box-shadow: 0 !important;
+    box-shadow: 0 !important;
+}
+.cs-padd-rec {padding: 6px;}
+.datepicker table tr td.highlighted.day {
+  background-color: #3276b1;
+  border-color: #285e8e;
+  color: #fff;
+}
+.datepicker table tr td.highlighted.day:hover, .datepicker table tr td.highlighted.day.focused {
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+.datepicker.datepicker-inline { background-color: #FFFFFF; }
+.cs-drp-margin {margin-right: -20px;}
+.recurring-round-return-date-wrap .btn-group>.btn {font-size: 13px;min-width: inherit;max-width: inherit;}
+@media only screen and (max-width: 480px) {
+  .recurring-round-return-date-wrap .btn-group>.btn {float: none;}
+}
